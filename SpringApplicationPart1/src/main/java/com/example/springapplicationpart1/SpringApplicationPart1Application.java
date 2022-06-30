@@ -11,6 +11,7 @@ public class SpringApplicationPart1Application {
 
 		// 아래 방법으로 run 하기. 위와 동일. 이게 커스터마이징하기 더 좋음.
 		SpringApplication application = new SpringApplication(SpringApplicationPart1Application.class);
+		// application.addListeners(new SampleListener());
 		application.run(args);
 
 		// Builder 패턴으로 run 할 수도 있음.
